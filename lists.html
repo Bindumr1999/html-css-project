@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+         <title>lists</title>
+        <style>
+            ol{
+                
+                list-style-type: lower-alpha;
+                list-style-position: inside;
+            }
+            ul{
+                list-style-type: circle;
+            }
+        
+        </style>
+    </head>
+    <body>
+      <ol type="i">
+          <li>First point</li>
+          <li>Second point
+              <ol type="a">
+                  <li>sublist item1</li>
+                  <li>sublist item2</li>
+              </ol>
+          </li>
+          <li>Third point</li>
+      </ol>
+        <ul>
+          <li>First point
+            <ol>
+                <li>one</li>
+                <li>two</li>
+              </ol>
+            </li>
+          <li>Second point</li>
+          <li>Third point</li>
+      </ul>
+    </body>
+</html>
